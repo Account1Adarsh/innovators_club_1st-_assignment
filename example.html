@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="">
+            <h1>
+            PAYMENT FORM
+            </h1>
+            <h2>Required field are marked by asetriek</h2>
+            <p>Name: *<input type="text" name="name" required placeholder="Your Name"></p>
+            <fieldset>
+               <legend>
+                Gender*
+               </legend>
+               <p>
+                    Male<input type="radio" name="gender" required>
+                    Female<input type="radio" name="gender" required>
+               </p>
+
+            </fieldset>
+            <p>
+                Address: <textarea name="address" id="address" cols="100" rows="2"></textarea>
+            </p>
+            <p>
+                E-mail: *<input type="email" name="email" required placeholder="Enter your email">
+            </p>
+            <p>
+                Pincode: *<input type="number" name="pincode" required>
+            </p>
+            <hr>
+            <h1>
+                Payment Details
+            </h1>
+            <p>
+                Card type :*<select name="card_type" id="card_type" required>
+                    <option value="">---select card type</option>
+                </select>
+            </p>
+        </form>
+    </body>
+</html>
